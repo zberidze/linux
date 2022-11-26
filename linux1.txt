@@ -1,4 +1,5 @@
 
+
    10  cd ..
    11  ls
    12  cd Desktop
@@ -93,3 +94,4 @@
   101  git status
   102  history 100 < linux1.txt
   103  history 100 > linux1.txt
+  104  last one
