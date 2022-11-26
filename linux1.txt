@@ -1,0 +1,95 @@
+
+   10  cd ..
+   11  ls
+   12  cd Desktop
+   13  free -h
+   14  clear
+   15  cd /mnt/c/users/user/Desktop
+   16  sudo apt-get install git 
+   17  git version
+   18  git --version
+   19  git config --global user.name "user.name"
+   20  git config --global user.email "@gmail.com"
+   21  git config -l
+   22  #saving on the plathform home directory 
+   23  .gitconfig
+   24  ls -lai ~/
+   25  cat ~/gitconfig
+   26  cat ~/.gitconfig
+   27  mkdir myproject
+   28  cd myproject
+   29  cd ..
+   30  cd myproject
+   31  git init .
+   32  ls 
+   33  ls -lai
+   34  ll .git/
+   35  git status
+   36  echo "sourse file1" > file1.txt
+   37  git status
+   38  echo "sourse file2" > file2.txt
+   39  ll
+   40  git status
+   41  git add *
+   42  git status
+   43  git commit -m "My initial commit ,this is version.0"
+   44  ll
+   45  git status
+   46  echo "sourse file3" > file.txt
+   47  git status
+   48  git add
+   49  git add .
+   50  git status
+   51  ll
+   52  nano file1
+   53  nano file1.txt
+   54  git status
+   55  git add *
+   56  git status
+   57  git commit -m "added file and updated file1"
+   58  git status
+   59  ls -li
+   60  git status
+   61  git add .
+   62  git status
+   63  git commit -m "adv-it screenshot"
+   64  status
+   65  git status
+   66  git log
+   67  git log -1
+   68  git log -2
+   69  nano file3.txt
+   70  nano file2.txt
+   71  git add file2.txt
+   72  git status
+   73  git commit -m "afdsa"
+   74  git log 
+   75  git log -1
+   76  git log -1 -p
+   77  ll
+   78  nano file1.txt
+   79  git status
+   80  git add file1.txt
+   81  git status
+   82  git commit -m 'safa'
+   83  git status
+   84  ll
+   85  git log  -1 -p
+   86  nano file2.txt
+   87  git status
+   88  cat file2.txt
+   89  git restore file2.txt
+   90  cat file2.txt
+   91  git status
+   92  git diff --staged
+   93  nano file2.txt
+   94  git status
+   95  git log -1 -p
+   96  git add file2.txt
+   97  git status
+   98  git log -1 -p
+   99  git diff --staged
+  100  git commit -m 'nadiasd'
+  101  git status
+  102  history 100 < linux1.txt
+  103  history 100 > linux1.txt

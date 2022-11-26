@@ -1,0 +1,3 @@
+https://apps.microsoft.com/store/detail/ubuntu-on-windows/9NBLGGH4MSV6?hl=en-us&gl=us
+https://linuxhint.com/install_ubuntu_windows_10_wsl/
+
